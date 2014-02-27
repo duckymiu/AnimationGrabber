@@ -9,7 +9,7 @@ The core idea of AnimationGrabber is that if you can take a screenshot of it, yo
 
 When you first boot AnimationGrabber, you'll see a pure black window with weird numbers on top. There are a few steps you need to take before using it.
 
-# Setting the grab area
+## Setting the grab area
 
 Grab area is the area on your screen that is placed into the animation. A good grab area would be some window which gives you a good view on your entire drawing, for instance the Navigator panel in some software.
 
@@ -18,21 +18,22 @@ Grab area is the area on your screen that is placed into the animation. A good g
 
 The AnimationGrabber window will change size along with the grab area.
 
-# Grabbing frames
+## Grabbing frames
 
-- The horizontally labeled numbers 1 through 9 act as slots for keyframes. The Numpad numbers 1 through 9 are frames 10 to 18
+The horizontally labeled numbers 1 through 9 act as slots for keyframes. The Numpad numbers 1 through 9 are frames 10 to 18
+
 - Pressing a number key will grab the viewport and store the file to that frame.
 - Subsequently pressing PrintScr will overwrite the last frame you've set, so you don't need to remember where you were at.
 
-# Setting the timerange
+## Setting the timerange
 
-AnimationGrabber is limited to only 18 frames. This is not an animation suite but a tool for previewing short segmets of animation.
+AnimationGrabber is limited to only 18 frames. This is not a fully fledged animation suite but a tool for previewing short segmets of animation.
 
 - After pressing a number key and setting that frame active, press the End key to set that keyframe as the last.
 - Pressing the Home key will set the keyframe as first.
 
 Or just press 5 and End, and you'll get a looping animation of the first five frames.
 
-# Adjusting framerate
+## Adjusting framerate
 
 - Framerate is adjusted with PageUp and PageDown keys.
